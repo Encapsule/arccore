@@ -1,0 +1,20 @@
+{
+    "name": "arccore",
+    "version": "0.0.3",
+    "codename": "ultramarine",
+    "buildID": "YUFM3x-jTdqVSDChQobc7g",
+    "buildTime": 1449787455,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Encapsule/arccore.git"
+    },
+    "author": "Encapsule",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Encapsule/arccore/issues"
+    },
+    "homepage": "https://github.com/Encapsule/arccore#readme",
+    "description": "Encapsule/arc* library common runtime for Node.js.",
+    "keywords": "ARC",
+    "main": "index.js"
+}
