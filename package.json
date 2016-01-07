@@ -1,9 +1,9 @@
 {
     "name": "arccore",
-    "version": "0.0.4",
-    "codename": "steelhead",
-    "buildID": "_NSBB7RJQvuFpx1uJNqzEA",
-    "buildTime": 1450922669,
+    "version": "0.0.5",
+    "codename": "perspective",
+    "buildID": "ysjpnhNnQEe4omGHbBWtkg",
+    "buildTime": 1452135699,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arccore.git"
