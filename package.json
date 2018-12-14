@@ -1,20 +1,28 @@
 {
     "name": "arccore",
-    "version": "0.0.17",
-    "codename": "kestrel (pre-release)",
-    "buildID": "N5QokcMISJuT8nY-os-q-A",
-    "buildTime": 1489971336,
+    "version": "0.1.0",
+    "codename": "spindrift",
+    "buildID": "BpydJRMAQty75quXDPoKMA",
+    "buildTime": 1544822044,
+    "ARC_master": "9684ace298f1f39d83a03255aa16ac913bcddd4e",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arccore.git"
     },
-    "author": "Encapsule",
+    "author": "Encapsule Project",
+    "contributors": [
+        {
+            "name": "Christopher D. Russell",
+            "email": "cdr@encapsule.io",
+            "url": "http://chrisrussell.net"
+        }
+    ],
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/Encapsule/arccore/issues"
     },
     "homepage": "https://github.com/Encapsule/arccore#readme",
-    "description": "Encapsule/arc* library common runtime for Node.js.",
+    "description": "Encapsule Project Addressable Resource Class (ARC) core runtime data modeling and processing libraries.",
     "keywords": "ARC",
-    "main": "index.js"
+    "main": "arc_core_lib.js"
 }
