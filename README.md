@@ -5,10 +5,10 @@
 # arccore v0.1.0 "spindrift"
 
 ```
-Package: arccore v0.1.0 "spindrift" build ID "BpydJRMAQty75quXDPoKMA"
-Sources: Encapsule/ARC_master#9684ace298f1f39d83a03255aa16ac913bcddd4e
+Package: arccore v0.1.0 "spindrift" build ID "UPZKGfiHSNSjcKEoa7Syew"
+Sources: Encapsule/ARC_master#870f06f774a89094ae7adf7802747281a856479d
 Purpose: library (Node.js + modern browsers (via package bundler))
-Created: 2018-12-14T21:14:04.000Z
+Created: 2018-12-17T00:31:24.000Z
 License: MIT
 ```
 
@@ -16,21 +16,27 @@ License: MIT
 
 Encapsule Project Addressable Resource Class (ARC) core runtime data modeling and processing libraries.
 
-### arccore.filter
+## Usage
 
-Build self-documenting functions with strong data type and value constraint enforcement provided automatically at runtime.
+This package's contained library functionality is intended for use in derived projects.
 
-### arccore.discriminator
+For example:
 
-Build specialized "discriminator" filter instances that route their incoming `request` to one of N developer-specified filters. Useful for building extensible message processing systems.
+1. Create simple test project, declare a dependency and install `arccore` package:
 
-### arccore.graph
+```
+$ mkdir testProject && cd testProject
+$ yarn init
+$ yarn add arccore --dev
+```
 
-Directed graph container class and algorithms for modeling and analyzing complex digraph datasets in memory.
+2. Create a simple script `index.js`:
 
-### arccore.identifier
-
-Generate non-cryptographic object signatures and random keys in 22-character (128-bit), or 6-character (32-bit) Internet Routable Unique Token (IRUT) string format.
+```JavaScript
+const arccore = require('arccore');
+console.log(JSON.stringify(arccore.__meta));
+/* ... your derived code here ... */
+```
 
 ## Distribution
 
@@ -39,27 +45,35 @@ The `arccore` library package is published on [npmjs](https://npmjs.com).
 - [arccore Package Distribution](https://npmjs.com/package/arccore/v/0.1.0) ([npm](https://www.npmjs.com/~chrisrus))
 - [arccore Package Repository](https://github.com/Encapsule/arccore) ([GitHub](https://github.com/Encapsule))
 
-## Usage
+## Contents
 
-From within your project's root directory...
+Please visit [ARCcore Package Documentation](https://encapsule.io/docs/ARCcore) for more information and detailed developer documentation.
 
-```
-$ npm install arccore --save-dev
-```
+The following sections provide a short overview of the libraries contained in the `arccore` package.
 
-... or if you use `yarn`:
+### arccore.filter
 
-```
-$ yarn add arccore --dev
-```
+Build self-documenting functions with strong data type and value constraint enforcement provided automatically at runtime.
 
-... to declare and install the `arccore` package as a dependency of your project.
+### arccore.discriminator
 
-Subsequently, import/require `arccore` into module scope as follows:
+Register a set of arccore.filter intances to create a "discriminator" filter that "routes" calls to a specific filter in the set based on the shape of the request.
 
-```JavaScript
-const arccore = require('arccore');
-```
+### arccore.graph
+
+Directed graph container class and algorithms for modeling and analyzing [directed graph](https://en.wikipedia.org/wiki/Directed_graph) datasets in memory.
+
+### arccore.identifier
+
+Generate non-cryptographic object signatures and random keys in 6-character (32-bit) and 22-character (128-bit) Internet Routable Unique Token (IRUT) string format.
+
+### arccore.types
+
+A collection of functions for testing and comparing the type of in-memory entities.
+
+## arccore.util
+
+A collection of utility functions used primarily by other libraries contained in the arccore package.
 
 <hr>
 

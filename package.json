@@ -2,9 +2,9 @@
     "name": "arccore",
     "version": "0.1.0",
     "codename": "spindrift",
-    "buildID": "BpydJRMAQty75quXDPoKMA",
-    "buildTime": 1544822044,
-    "ARC_master": "9684ace298f1f39d83a03255aa16ac913bcddd4e",
+    "buildID": "UPZKGfiHSNSjcKEoa7Syew",
+    "buildTime": 1545006684,
+    "ARC_master": "870f06f774a89094ae7adf7802747281a856479d",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arccore.git"
