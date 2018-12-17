@@ -5,10 +5,10 @@
 # arccore v0.1.0 "spindrift"
 
 ```
-Package: arccore v0.1.0 "spindrift" build ID "UPZKGfiHSNSjcKEoa7Syew"
-Sources: Encapsule/ARC_master#870f06f774a89094ae7adf7802747281a856479d
+Package: arccore v0.1.0 "spindrift" build ID "e78xfiIlSs-05B-kkPECDA"
+Sources: Encapsule/ARC_master#472eea565456884e0622aa6a6f0e0db03ba89af7
 Purpose: library (Node.js + modern browsers (via package bundler))
-Created: 2018-12-17T00:31:24.000Z
+Created: 2018-12-17T01:41:57.000Z
 License: MIT
 ```
 
@@ -71,7 +71,7 @@ Generate non-cryptographic object signatures and random keys in 6-character (32-
 
 A collection of functions for testing and comparing the type of in-memory entities.
 
-## arccore.util
+### arccore.util
 
 A collection of utility functions used primarily by other libraries contained in the arccore package.
 
