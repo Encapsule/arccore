@@ -5,10 +5,10 @@
 # arccore v0.1.0 "spindrift"
 
 ```
-Package: arccore v0.1.0 "spindrift" build ID "e78xfiIlSs-05B-kkPECDA"
-Sources: Encapsule/ARC_master#472eea565456884e0622aa6a6f0e0db03ba89af7
+Package: arccore v0.1.0 "spindrift" build ID "e6kEgTMaS6q5Rty0srP9uQ"
+Sources: Encapsule/ARC_master#7c495826877c4ff81572aec4ff9cb57155f7759e
 Purpose: library (Node.js + modern browsers (via package bundler))
-Created: 2018-12-17T01:41:57.000Z
+Created: 2018-12-28T16:58:40.000Z
 License: MIT
 ```
 
