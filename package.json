@@ -1,13 +1,13 @@
 {
-    "name": "encapsule@arccore",
+    "name": "@encapsule/arccore",
     "version": "0.1.2",
     "codename": "snowpocalypse",
-    "buildID": "vev3zqmwSb2ohVdHaH9mFw",
-    "buildTime": 1550196415,
-    "ARC_master": "ad91411429485691ab1c802f3b1214428679dc08",
+    "buildID": "zWzivSSiS4GAvEfJBjaJXg",
+    "buildTime": 1550198316,
+    "ARC_master": "96a3b9d6ac095687a810958c20046881813ede8d",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Encapsule/encapsule@arccore.git"
+        "url": "git+https://github.com/Encapsule/arccore.git"
     },
     "author": "Encapsule",
     "contributors": [
@@ -19,9 +19,9 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Encapsule/encapsule@arccore/issues"
+        "url": "https://github.com/Encapsule/arccore/issues"
     },
-    "homepage": "https://github.com/Encapsule/encapsule@arccore#readme",
+    "homepage": "https://github.com/Encapsule/arccore#readme",
     "description": "Encapsule Project Addressable Resource Class (ARC) core runtime data modeling and processing libraries.",
     "keywords": "ARC",
     "main": "arc_core_lib.js"

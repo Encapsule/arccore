@@ -2,13 +2,13 @@
 
 ### Encapsule
 
-# encapsule@arccore v0.1.2 "snowpocalypse"
+# @encapsule/arccore v0.1.2 "snowpocalypse"
 
 ```
-Package: encapsule@arccore v0.1.2 "snowpocalypse" build ID "vev3zqmwSb2ohVdHaH9mFw"
-Sources: Encapsule/ARC_master#ad91411429485691ab1c802f3b1214428679dc08
+Package: @encapsule/arccore v0.1.2 "snowpocalypse" build ID "zWzivSSiS4GAvEfJBjaJXg"
+Sources: Encapsule/ARC_master#96a3b9d6ac095687a810958c20046881813ede8d
 Purpose: library (Node.js + modern browsers (via package bundler))
-Created: 2019-02-15T02:06:55.000Z
+Created: 2019-02-15T02:38:36.000Z
 License: MIT
 ```
 
@@ -22,28 +22,28 @@ This package's contained library functionality is intended for use in derived pr
 
 For example:
 
-1. Create simple test project, declare a dependency and install `encapsule@arccore` package:
+1. Create simple test project, declare a dependency and install `@encapsule/arccore` package:
 
 ```
 $ mkdir testProject && cd testProject
 $ yarn init
-$ yarn add encapsule@arccore --dev
+$ yarn add @encapsule/arccore --dev
 ```
 
 2. Create a simple script `index.js`:
 
 ```JavaScript
-const lib = require('encapsule@arccore');
-console.log(JSON.stringify(lib.__meta));
+const arccore = require('@encapsule/arccore');
+console.log(JSON.stringify(arccore.__meta));
 /* ... your derived code here ... */
 ```
 
 ## Distribution
 
-The `encapsule@arccore` library package is published on [npmjs](https://npmjs.com).
+The `@encapsule/arccore` library package is published on [npmjs](https://npmjs.com).
 
-- [encapsule@arccore Package Distribution](https://npmjs.com/package/encapsule@arccore/v/0.1.2) ([npm](https://www.npmjs.com/~chrisrus))
-- [encapsule@arccore Package Repository](https://github.com/Encapsule/encapsule@arccore) ([GitHub](https://github.com/Encapsule))
+- [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.1.2) ([npm](https://www.npmjs.com/@encapsule))
+- [@encapsule/arccore Package Repository](https://github.com/Encapsule/arccore) ([GitHub](https://github.com/Encapsule))
 
 ## Contents
 
