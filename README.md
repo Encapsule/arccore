@@ -5,10 +5,10 @@
 # @encapsule/arccore v0.1.2 "snowpocalypse"
 
 ```
-Package: @encapsule/arccore v0.1.2 "snowpocalypse" build ID "kiydwYlARWSYPqfbS23BQw"
-Sources: Encapsule/ARC_master#96a3b9d6ac095687a810958c20046881813ede8d
+Package: @encapsule/arccore v0.1.2 "snowpocalypse" build ID "AEmjWfWzQFCN4THcq_lmFA"
+Sources: Encapsule/ARC_master#13fa1aec3d1617cbdccd3c340112fe8d089ae91a
 Purpose: library (Node.js + modern browsers (via package bundler))
-Created: 2019-02-15T02:42:59.000Z
+Created: 2019-02-15T02:49:12.000Z
 License: MIT
 ```
 
