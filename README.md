@@ -2,13 +2,13 @@
 
 ### Encapsule Project
 
-# @encapsule/arccore v0.1.3 "nesika"
+# @encapsule/arccore v0.1.4 "ellisforde"
 
 ```
-Package: @encapsule/arccore v0.1.3 "nesika" build ID "v3JCnsjJTC2YVaJlu6q09w"
-Sources: Encapsule/ARC_master#0d0947f0316981c5e7aa8fd951e8df9f85989418
+Package: @encapsule/arccore v0.1.4 "ellisforde" build ID "yTZTiJ4yQ8ubgRMlOxVYJg"
+Sources: Encapsule/ARC_master#d1bb0e7cc083746ca939bc741c359da43cea9f49
 Purpose: library (Node.js + modern browsers (via package bundler))
-Created: 2019-02-20T23:13:04.000Z
+Created: 2019-03-12T17:23:16.000Z
 License: MIT
 ```
 
@@ -42,7 +42,7 @@ console.log(JSON.stringify(arccore.__meta));
 
 The `@encapsule/arccore` library package is published on [npmjs](https://npmjs.com).
 
-- [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.1.3) ([npm](https://www.npmjs.com/@encapsule))
+- [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.1.4) ([npm](https://www.npmjs.com/@encapsule))
 - [@encapsule/arccore Package Repository](https://github.com/Encapsule/arccore) ([GitHub](https://github.com/Encapsule))
 
 ## Contents
