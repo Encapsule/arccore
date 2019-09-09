@@ -2,13 +2,13 @@
 
 ### Encapsule Project
 
-# @encapsule/arccore v0.1.5 "kamloops"
+# @encapsule/arccore v0.1.6 "grasslands"
 
 ```
-Package: @encapsule/arccore v0.1.5 "kamloops" build ID "ENLeel2eSBqp463RriB03g"
-Sources: Encapsule/ARC_master#7105093384d56eecb59e52cbf9ff800545cc6856
+Package: @encapsule/arccore v0.1.6 "grasslands" build ID "0h8D-8DYQR-oBkbutdis-w"
+Sources: Encapsule/ARC_master#5d74e2efa5e8facace0f24e93f35fac480ab6319
 Purpose: library (Node.js + modern browsers (via package bundler))
-Created: 2019-03-14T04:17:24.000Z
+Created: 2019-09-09T21:47:57.000Z
 License: MIT
 ```
 
@@ -42,7 +42,7 @@ console.log(JSON.stringify(arccore.__meta));
 
 The `@encapsule/arccore` library package is published on [npmjs](https://npmjs.com).
 
-- [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.1.5) ([npm](https://www.npmjs.com/@encapsule))
+- [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.1.6) ([npm](https://www.npmjs.com/@encapsule))
 - [@encapsule/arccore Package Repository](https://github.com/Encapsule/arccore) ([GitHub](https://github.com/Encapsule))
 
 ## Contents
