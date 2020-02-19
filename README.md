@@ -1,20 +1,24 @@
-[![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io)
+# [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-### Encapsule Project
-
-# @encapsule/arccore v0.1.8 "sagelands"
+# @encapsule/arccore v0.1.9 "crescent"
 
 ```
-Package: @encapsule/arccore v0.1.8 "sagelands" build ID "ONcss2kKRTedb2Th9_6eCg"
-Sources: Encapsule/ARC_master#f4ef690fb23edd126b911cf745ded4e73665ae6b
+Package: @encapsule/arccore v0.1.9 "crescent" build ID "PANppySVSuq_rHt8GC3LOQ"
+Sources: Encapsule/ARC_master#d8676518ee7c59ec18a26550c99dd8ea1ec6c698
 Purpose: library (Node.js + modern browsers (via package bundler))
-Created: 2020-01-05T15:09:58.000Z
+Created: 2020-02-19T21:34:39.000Z
 License: MIT
 ```
 
 # Summary
 
-Encapsule Project Addressable Resource Class (ARC) core runtime data modeling and processing libraries.
+## Description
+
+This package is a collection of low-level runtime libraries for modeling, filtering, and routing runtime application state data in JavaScript applications.
+
+The @encapsule/arccore package's main consumers are [@encapsule/arccore](https://github.com/Encapsule/ARCtools) and **[@encapsule/holistic](https://github.com/Encapsule/holistic)** (as well as apps and services derived from the @encapsule/holistic app platform distribution).
+
+The moniker **ARC** stands for **A**addressable **R**esource **C**ell (ARC) which is an abstraction related to celluar automata systems modeling and disitributed application state management. @encapsule/arccore is a toolkit for building such systems in JavaScript. These topics are further explored in the derived  [@encapsule/holistic](https://github.com/Encapsule/holistic) platform distribution.
 
 ## Usage
 
@@ -42,14 +46,14 @@ console.log(JSON.stringify(arccore.__meta));
 
 The `@encapsule/arccore` library package is published on [npmjs](https://npmjs.com).
 
-- [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.1.8) ([npm](https://www.npmjs.com/@encapsule))
+- [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.1.9) ([npm](https://www.npmjs.com/@encapsule))
 - [@encapsule/arccore Package Repository](https://github.com/Encapsule/arccore) ([GitHub](https://github.com/Encapsule))
 
 ## Contents
 
-Please visit [ARCcore Package Documentation](https://encapsule.io/docs/ARCcore) for more information and detailed developer documentation.
+The sections below provide a brief summary of the runtime library packages included in the @encapsule/arccore distribution package.
 
-The following sections provide a short overview of the libraries contained in the `arccore` package.
+Please visit **[ARCcore Package Docs](https://encapsule.io/docs/ARCcore)** for complete @encapsule/arccore API documentation.
 
 ### arccore.filter
 
@@ -77,6 +81,12 @@ A collection of utility functions used primarily by other libraries contained in
 
 <hr>
 
-Copyright &copy; 2020 [Christopher D. Russell](https://encapsule.io)
+[![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io)
 
-Published by [Encapsule Project](https://encapsule.io) Seattle, WA USA
+Copyright &copy; 2020 [Christopher D. Russell](https://github.com/ChrisRus) Seattle, Washington USA
+
+Published under [MIT](./LICENSE) license by [Encapsule Project](https://encapsule.io)
+
+Please follow [@Encapsule](https://twitter.com/Encapsule) on Twitter for news and updates.
+
+<hr>

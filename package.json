@@ -1,10 +1,10 @@
 {
     "name": "@encapsule/arccore",
-    "version": "0.1.8",
-    "codename": "sagelands",
-    "buildID": "ONcss2kKRTedb2Th9_6eCg",
-    "buildTime": 1578236998,
-    "ARC_master": "f4ef690fb23edd126b911cf745ded4e73665ae6b",
+    "version": "0.1.9",
+    "codename": "crescent",
+    "buildID": "PANppySVSuq_rHt8GC3LOQ",
+    "buildTime": 1582148079,
+    "ARC_master": "d8676518ee7c59ec18a26550c99dd8ea1ec6c698",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arccore.git"
@@ -14,7 +14,7 @@
         {
             "name": "Christopher D. Russell",
             "email": "cdr@encapsule.io",
-            "url": "https://encapsule.io"
+            "url": "https://github.com/ChrisRus"
         }
     ],
     "license": "MIT",
@@ -22,7 +22,7 @@
         "url": "https://github.com/Encapsule/arccore/issues"
     },
     "homepage": "https://github.com/Encapsule/arccore#readme",
-    "description": "Encapsule Project Addressable Resource Class (ARC) core runtime data modeling and processing libraries.",
-    "keywords": "ARC",
+    "description": "This package is a collection of low-level runtime libraries for modeling, filtering, and routing runtime application state data in JavaScript applications.",
+    "keywords": "Encapsule, ARC, in-memory, functional, holistic, filter, discriminator, routing, MDR, graph, DirectedGraph, data, algorithms, models, modeling, library, RTL, cell, cell processor",
     "main": "arc_core_lib.js"
 }
