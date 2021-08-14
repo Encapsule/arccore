@@ -1,37 +1,33 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-# @encapsule/arccore v0.1.11 "woodlands"
+## @encapsule/arccore v0.2.01-firestorm
+
+**Encapsule Project Addressable Resource Cell (ARC) core algorithms runtime library package.**
 
 ```
-Package: @encapsule/arccore v0.1.11 "woodlands" build ID "q7umH8vtTI2rvSCMCigCQg"
-Sources: Encapsule/ARC_master#fc9a90f7f557ac247a068d0490545928688b8f02
-Purpose: library (Node.js + modern browsers (via package bundler))
-Created: 2021-02-26T14:05:12.000Z
+Package: @encapsule/arccore v0.2.01-firestorm build nBb0p-4BTIuUMnI0WUVBJQ
+Sources: @encapsule/dpmr-arc-core-at#c47e91c198f493d91cf63cb499ea5b2d79878f41
+Purpose: library (Node.js + HTML5)
+Created: 2021-08-14T05:11:58.000Z
 License: MIT
 ```
 
-# Summary
+# Overview
 
-## Description
+> **[ARCcore Runtime Documentation](https://encapsule.io/docs/ARCcore)**
 
-This package is a collection of low-level runtime libraries for modeling, filtering, and routing runtime application state data in JavaScript applications.
+The `@encapsule/arccore` package contains runtime algorithms for schematizing, filtering, routing, and modeling strongly-typed in-memory data within Node.js and HTML5 services runtimes implemented in JavaScript.
 
-The @encapsule/arccore package's main consumers are [@encapsule/arccore](https://github.com/Encapsule/ARCtools) and **[@encapsule/holistic](https://github.com/Encapsule/holistic)** (as well as apps and services derived from the @encapsule/holistic app platform distribution).
+# Use
 
-The moniker **ARC** stands for **A**addressable **R**esource **C**ell (ARC) which is an abstraction related to celluar automata systems modeling and disitributed application state management. @encapsule/arccore is a toolkit for building such systems in JavaScript. These topics are further explored in the derived  [@encapsule/holistic](https://github.com/Encapsule/holistic) platform distribution.
-
-## Usage
-
-This package's contained library functionality is intended for use in derived projects.
-
-For example:
+Add the `@encapsule/arccore` the runtime library distribution package to your project's `package.json`:
 
 1. Create simple test project, declare a dependency and install `@encapsule/arccore` package:
 
 ```
 $ mkdir testProject && cd testProject
-$ yarn init
-$ yarn add @encapsule/arccore --dev
+$ npm init --yes
+$ npm install @encapsule/arccore --save-dev
 ```
 
 2. Create a simple script `index.js`:
@@ -42,51 +38,64 @@ console.log(JSON.stringify(arccore.__meta));
 /* ... your derived code here ... */
 ```
 
-## Distribution
+# Runtime Libraries
 
-The `@encapsule/arccore` library package is published on [npmjs](https://npmjs.com).
+## ARCcore.filter
 
-- [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.1.11) ([npm](https://www.npmjs.com/@encapsule))
-- [@encapsule/arccore Package Repository](https://github.com/Encapsule/arccore) ([GitHub](https://github.com/Encapsule))
-
-## Contents
-
-The sections below provide a brief summary of the runtime library packages included in the @encapsule/arccore distribution package.
-
-Please visit **[ARCcore Package Docs](https://encapsule.io/docs/ARCcore)** for complete @encapsule/arccore API documentation.
-
-### arccore.filter
+> **[ARCcore.filter Documentation](https://encapsule.io/docs/ARCcore/filter)**
 
 Build self-documenting functions with strong data type and value constraint enforcement provided automatically at runtime.
 
-### arccore.discriminator
+## ARCcore.discriminator
 
-Register a set of arccore.filter intances to create a "discriminator" filter that "routes" calls to a specific filter in the set based on the shape of the request.
+> **[ARCcore.discriminator Documentation](https://encapsule.io/docs/ARCcore/discriminator)**
 
-### arccore.graph
+Register a set of ARCcore.filter intances to create a "discriminator" filter that "routes" calls to a specific filter in the set based on the shape of the request.
+
+## ARCcore.graph
+
+> **[ARCcore.graph Documentation](https://encapsule.io/docs/ARCcore/graph)**
 
 Directed graph container class and algorithms for modeling and analyzing [directed graph](https://en.wikipedia.org/wiki/Directed_graph) datasets in memory.
 
-### arccore.identifier
+## ARCcore.identifier
+
+> **[ARCcore.identifier Documentation](https://encapsule.io/docs/ARCcore/identifier)**
 
 Generate non-cryptographic object signatures and random keys in 6-character (32-bit) and 22-character (128-bit) Internet Routable Unique Token (IRUT) string format.
 
-### arccore.types
+## ARCcore.types
+
+> **[ARCcore.types Documentation](https://encapsule.io/docs/ARCcore/types)**
 
 A collection of functions for testing and comparing the type of in-memory entities.
 
-### arccore.util
+## ARCcore.util
+
+> **[ARCcore.util Documentation](https://encapsule.io/docs/ARCcore/identifier)**
 
 A collection of utility functions used primarily by other libraries contained in the arccore package.
+
+# Release Notes
+
+## v0.2.01-firestorm
+
+- Rebuild and test on Node.js v16.6.1.
+- Update all build and runtime dependency packages to latest versions.
+
+# Sources
+
+- [https://npmjs.com/package/@encapsule/arccore/v/0.2.01](https://npmjs.com/package/@encapsule/arccore/v/0.2.01)
+- [https://github.com/Encapsule/arccore](https://github.com/Encapsule/arccore)
 
 <hr>
 
 [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io)
 
-Copyright &copy; 2021 [Christopher D. Russell](https://github.com/ChrisRus) Seattle, Washington USA
+Published under [MIT](./LICENSE) license by [Encapsule Project](https://github.com/Encapsule)
 
-Published under [MIT](./LICENSE) license by [Encapsule Project](https://encapsule.io)
+Copyright &copy; 2021 [Chris Russell](https://github.com/ChrisRus)
 
-Please follow [@Encapsule](https://twitter.com/Encapsule) on Twitter for news and updates.
+Updates and releases are Tweeted [@Encapsule](https://twitter.com/Encapsule)
 
 <hr>

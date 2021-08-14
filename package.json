@@ -1,28 +1,28 @@
 {
     "name": "@encapsule/arccore",
-    "version": "0.1.11",
-    "codename": "woodlands",
-    "buildID": "q7umH8vtTI2rvSCMCigCQg",
-    "buildTime": 1614348312,
-    "ARC_master": "fc9a90f7f557ac247a068d0490545928688b8f02",
+    "version": "0.2.01",
+    "codename": "firestorm",
+    "buildID": "nBb0p-4BTIuUMnI0WUVBJQ",
+    "buildTime": 1628917918,
+    "buildSource": "c47e91c198f493d91cf63cb499ea5b2d79878f41",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Encapsule/arccore.git"
+        "url": "git+https://gitlab.com/Encapsule/distributions/arccore.git"
     },
     "author": "Encapsule",
     "contributors": [
         {
-            "name": "Christopher D. Russell",
+            "name": "Chris Russell",
             "email": "cdr@encapsule.io",
             "url": "https://github.com/ChrisRus"
         }
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Encapsule/arccore/issues"
+        "url": "https://gitlab.com/Encapsule/distributions/arccore/issues"
     },
-    "homepage": "https://github.com/Encapsule/arccore#readme",
-    "description": "This package is a collection of low-level runtime libraries for modeling, filtering, and routing runtime application state data in JavaScript applications.",
-    "keywords": "Encapsule, ARC, in-memory, functional, holistic, filter, discriminator, routing, MDR, graph, DirectedGraph, data, algorithms, models, modeling, library, RTL, cell, cell processor",
+    "homepage": "https://gitlab.com/Encapsule/distributions/arccore#readme",
+    "description": "Encapsule Project Addressable Resource Cell (ARC) core algorithms runtime library package.",
+    "keywords": "Encapsule, ARC, filter, discriminator, graph, identifier, types, data, schema, algorithm, runtime.",
     "main": "arc_core_lib.js"
 }
