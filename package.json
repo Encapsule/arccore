@@ -1,13 +1,13 @@
 {
     "name": "@encapsule/arccore",
-    "version": "0.2.01",
+    "version": "0.2.2",
     "codename": "firestorm",
-    "buildID": "nBb0p-4BTIuUMnI0WUVBJQ",
-    "buildTime": 1628917918,
-    "buildSource": "c47e91c198f493d91cf63cb499ea5b2d79878f41",
+    "buildID": "oHcK4HI2R-uWToPGoutlAQ",
+    "buildTime": 1636579333,
+    "buildSource": "b8d25253c32ba4ec679c9530a7bfc5c88a8ef490",
     "repository": {
         "type": "git",
-        "url": "git+https://gitlab.com/Encapsule/distributions/arccore.git"
+        "url": "git+https://gitlab.com/encapsule/arccore.git"
     },
     "author": "Encapsule",
     "contributors": [
@@ -19,9 +19,9 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://gitlab.com/Encapsule/distributions/arccore/issues"
+        "url": "https://gitlab.com/encapsule/arccore/-/issues"
     },
-    "homepage": "https://gitlab.com/Encapsule/distributions/arccore#readme",
+    "homepage": "https://gitlab.com/encapsule/arccore",
     "description": "Encapsule Project Addressable Resource Cell (ARC) core algorithms runtime library package.",
     "keywords": "Encapsule, ARC, filter, discriminator, graph, identifier, types, data, schema, algorithm, runtime.",
     "main": "arc_core_lib.js"

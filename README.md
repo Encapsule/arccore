@@ -1,14 +1,14 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-## @encapsule/arccore v0.2.01-firestorm
+## @encapsule/arccore v0.2.2-firestorm
 
-**Encapsule Project Addressable Resource Cell (ARC) core algorithms runtime library package.**
+_Encapsule Project Addressable Resource Cell (ARC) core algorithms runtime library package._
 
 ```
-Package: @encapsule/arccore v0.2.01-firestorm build nBb0p-4BTIuUMnI0WUVBJQ
-Sources: @encapsule/dpmr-arc-core-at#c47e91c198f493d91cf63cb499ea5b2d79878f41
+Package: @encapsule/arccore v0.2.2-firestorm build oHcK4HI2R-uWToPGoutlAQ
+Sources: @encapsule/dpmr-arc-core-at#b8d25253c32ba4ec679c9530a7bfc5c88a8ef490
 Purpose: library (Node.js + HTML5)
-Created: 2021-08-14T05:11:58.000Z
+Created: 2021-11-10T21:22:13.000Z
 License: MIT
 ```
 
@@ -20,7 +20,7 @@ The `@encapsule/arccore` package contains runtime algorithms for schematizing, f
 
 # Use
 
-Add the `@encapsule/arccore` the runtime library distribution package to your project's `package.json`:
+Add the `@encapsule/arccore` package to your Node.js project's `package.json` manifest:
 
 1. Create simple test project, declare a dependency and install `@encapsule/arccore` package:
 
@@ -76,26 +76,18 @@ A collection of functions for testing and comparing the type of in-memory entiti
 
 A collection of utility functions used primarily by other libraries contained in the arccore package.
 
-# Release Notes
+# Package Links
 
-## v0.2.01-firestorm
+- [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.2.2) (npmjs)
+- [@encapsule/arccore Package Repo](https://gitlab.com/encapsule/arccore) (GitLab)
+- [@encapsule/arccore Package Issues](https://gitlab.com/encapsule/arccore/-/issues) (GitLab)
 
-- Rebuild and test on Node.js v16.6.1.
-- Update all build and runtime dependency packages to latest versions.
+# [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-# Sources
+Published under [MIT](./LICENSE) license by [Encapsule Project](https://encapsule.io)
 
-- [https://npmjs.com/package/@encapsule/arccore/v/0.2.01](https://npmjs.com/package/@encapsule/arccore/v/0.2.01)
-- [https://github.com/Encapsule/arccore](https://github.com/Encapsule/arccore)
+Copyright &copy; 2021 Chris Russell
 
-<hr>
+GitLab: [https://gitlab/encapsule](https://gitlab.encapsule)
 
-[![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io)
-
-Published under [MIT](./LICENSE) license by [Encapsule Project](https://github.com/Encapsule)
-
-Copyright &copy; 2021 [Chris Russell](https://github.com/ChrisRus)
-
-Updates and releases are Tweeted [@Encapsule](https://twitter.com/Encapsule)
-
-<hr>
+Twitter: [https://twitter.com/encapsule](https://twitter.com/encapsule)
