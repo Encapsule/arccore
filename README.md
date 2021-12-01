@@ -1,14 +1,14 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-## @encapsule/arccore v0.2.2-firestorm
+## @encapsule/arccore v0.3.0-atmosphere
 
 _Encapsule Project Addressable Resource Cell (ARC) core algorithms runtime library package._
 
 ```
-Package: @encapsule/arccore v0.2.2-firestorm build oHcK4HI2R-uWToPGoutlAQ
-Sources: @encapsule/dpmr-arc-core-at#b8d25253c32ba4ec679c9530a7bfc5c88a8ef490
+Package: @encapsule/arccore v0.3.0-atmosphere build R1_yzZF8TfKT_Lh2LAlEOQ
+Sources: @encapsule/dpmr-arc-core-at#8d31c7e07e9709238a2a096c83f1413f49bee6ae
 Purpose: library (Node.js + HTML5)
-Created: 2021-11-10T21:22:13.000Z
+Created: 2021-12-01T01:41:30.000Z
 License: MIT
 ```
 
@@ -78,7 +78,7 @@ A collection of utility functions used primarily by other libraries contained in
 
 # Package Links
 
-- [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.2.2) (npmjs)
+- [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.3.0) (npmjs)
 - [@encapsule/arccore Package Repo](https://gitlab.com/encapsule/arccore) (GitLab)
 - [@encapsule/arccore Package Issues](https://gitlab.com/encapsule/arccore/-/issues) (GitLab)
 
