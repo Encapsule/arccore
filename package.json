@@ -1,13 +1,13 @@
 {
     "name": "@encapsule/arccore",
-    "version": "0.3.2",
-    "codename": "snowlake",
-    "buildID": "mNgZymfCSDOPBVm2mWizJw",
-    "buildTime": 1639720283,
-    "buildSource": "59ab419d79e6159f6e3eca1fd253663395bee3d7",
+    "version": "0.3.3",
+    "codename": "frostlake",
+    "buildID": "-a1Apf5pSGakC8-VzYyYnQ",
+    "buildTime": 1640037022,
+    "buildSource": "d60d0295710883b3750a21bbf849c25084d4550c",
     "repository": {
         "type": "git",
-        "url": "git+https://gitlab.com/encapsule/arccore.git"
+        "url": "git+https://github.com/encapsule/arccore.git"
     },
     "author": "Encapsule",
     "contributors": [
@@ -18,9 +18,9 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://gitlab.com/encapsule/arccore/-/issues"
+        "url": "https://github.com/encapsule/arccore/issues"
     },
-    "homepage": "https://gitlab.com/encapsule/arccore",
+    "homepage": "https://encapsule.io",
     "description": "Encapsule Project Addressable Resource Cell (ARC) core algorithms runtime library package.",
     "keywords": "Encapsule, ARC, filter, discriminator, graph, identifier, types, data, schema, algorithm, runtime.",
     "main": "arc_core_lib.js"
