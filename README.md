@@ -1,18 +1,18 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-## @encapsule/arccore v0.3.4-lakeserene
+## @encapsule/arccore v0.3.5-lochkatrine
 
 **Encapsule Project Addressable Resource Cell (ARC) core algorithms runtime library package.**
 
 ```
-Package: @encapsule/arccore v0.3.4-lakeserene build kQreCCrLSIuRNxJGWSQ_vw
-Sources: @encapsule/dpmr-arc-core-at#60946ad275bcc97d6d7d7710138c8d3ed7137512
+Package: @encapsule/arccore v0.3.5-lochkatrine build I9XDxv7YRqKOJLb4YmlOvQ
+Sources: @encapsule/dpmr-arc-core-at#c9792a2cc90d29f3a31279d4c0d4f446e8f54198
 Purpose: library (Node.js + HTML5)
-Created: 2022-01-02T22:26:43.000Z
+Created: 2022-01-11T18:59:07.000Z
 License: MIT
 ```
 
-> [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.3.4) (npmjs)<br/>
+> [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.3.5) (npmjs)<br/>
 > [@encapsule/arccore Package Repo](https://github.com/encapsule/arccore) (GitHub)<br/>
 > [@encapsule/arccore Package Issues](https://github.com/encapsule/arccore/issues) (GitHub)
 
@@ -44,6 +44,8 @@ console.log(JSON.stringify(arccore.__meta));
 
 ## Runtime Libraries
 
+The `@encapsule/arrccore` package is a pre-tested, minified, self-contained, distribution package containing runtime algorithms used to build Node.js and HTML5 infrastructure and advanced data-driven application services.
+
 ### ARCcore.filter
 
 > **[ARCcore.filter Documentation](https://encapsule.io/docs/ARCcore/filter)**
@@ -68,6 +70,8 @@ Directed graph container class and algorithms for modeling and analyzing [direct
 
 Generate non-cryptographic object signatures and random keys in 6-character (32-bit) and 22-character (128-bit) Internet Routable Unique Token (IRUT) string format.
 
+**Note:** The `@encapsule/arccore.identifier` runtime library leverages the `uuid` and `murmurhash-js` npm packages that are included this this package as [bundled dependencies](#bundled-dependencies).
+
 ### ARCcore.types
 
 > **[ARCcore.types Documentation](https://encapsule.io/docs/ARCcore/types)**
@@ -80,11 +84,17 @@ A collection of functions for testing and comparing the type of in-memory entiti
 
 A collection of utility functions used primarily by other libraries contained in the arccore package.
 
-## Dependencies
+## Bundled Dependencies
 
-The `@encapsule/arccore` distribution package bundles and contains the **[uuid](https://www.npmjs.com/package/uuid)** and **[murmurhash-js](https://www.npmjs.com/package/murmurhash-js)** npm packages in order to ensure that the package is self-contained, and functions exactly as verified by our suite of 1700+ regression tests.
+The `@encapsule/arccore` package includes the minified source code for MIT-licensed packages [murmurhash-js](https://www.npmjs.com/package/murmurhash-js) and [uuid](https://www.npmjs.com/package/uuid).
 
-If your application service needs to leverages either of these bundled packages directly they are exported from `@encapsule/arccore` as `__bundle.uuid` and `__bundle.murmurhash_js`.
+If your derived application/service requires either of these packages, use the same version bundled in the `@encapsule/arccore` package via `__bundle` export object:
+
+```
+const arccore = require("@encapsule/arccore");
+const murmurhash_js = arccore.__bundle.murmurhash_js;
+const uuid = arccore.__bundle.uuid;
+```
 
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
