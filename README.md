@@ -1,18 +1,18 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-## @encapsule/arccore v0.3.5-lochkatrine
+## @encapsule/arccore v0.3.6-bigsnowlake
 
 **Encapsule Project Addressable Resource Cell (ARC) core algorithms runtime library package.**
 
 ```
-Package: @encapsule/arccore v0.3.5-lochkatrine build I9XDxv7YRqKOJLb4YmlOvQ
-Sources: @encapsule/dpmr-arc-core-at#c9792a2cc90d29f3a31279d4c0d4f446e8f54198
+Package: @encapsule/arccore v0.3.6-bigsnowlake build d21KCDYhQ4OteRdl6AO9Gw
+Sources: @encapsule/dpmr-arc-core-at#0f31e3fdb2c840b53e4aaf5378331f496a3c2b76
 Purpose: library (Node.js + HTML5)
-Created: 2022-01-11T18:59:07.000Z
+Created: 2022-05-12T04:50:51.000Z
 License: MIT
 ```
 
-> [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.3.5) (npmjs)<br/>
+> [@encapsule/arccore Package Distribution](https://npmjs.com/package/@encapsule/arccore/v/0.3.6) (npmjs)<br/>
 > [@encapsule/arccore Package Repo](https://github.com/encapsule/arccore) (GitHub)<br/>
 > [@encapsule/arccore Package Issues](https://github.com/encapsule/arccore/issues) (GitHub)
 
